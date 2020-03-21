@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "575025389391",
+    "firebase_url": "https://ionic-japee-ios.firebaseio.com",
+    "project_id": "ionic-japee-ios",
+    "storage_bucket": "ionic-japee-ios.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575025389391:android:b165fd08966c4d05",
+        "android_client_info": {
+          "package_name": "tokyo.japee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575025389391-lqog1agpbln78n7g56oq3l7rknh3ogb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp0sHIT0-mDRoyjm7L1AOgw2rWIw5mSZs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "575025389391-lqog1agpbln78n7g56oq3l7rknh3ogb9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "575025389391-ndgc2a00b5rk0aof83nf1akn6ad1lg0b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "tokyo.japee",
+                "app_store_id": "1459970106"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+/*
+ Theme Name:    Electro Child
+ Theme URI:     https://themeforest.net/item/electro-electronics-store-woocommerce-theme/15720624
+ Description:   This is the child theme of Electro
+ Author:        MadrasThemes
+ Author URI:    https://madrasthemes.com/
+ Template:      electro
+ Version:       2.2.6
+ License:       GNU General Public License v2 or later
+ License URI:   http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:          light, dark, two-columns, right-sidebar, responsive-layout
+ Text Domain:   electro-child
+*/
+
+/* external css: flickity.css */
+@charset "utf-8";
+.maintitle{
+	text-align:center;
+	font-size: 16px;
+}
+
+.nav-icon{
+  font-size: 16px;
+}
+
+.nav-font{
+  font-size: 16px;
+}
+
+div.scrollmenu {
+  background-color: #ffdbed;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}

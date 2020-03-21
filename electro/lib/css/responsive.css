@@ -1,0 +1,115 @@
+.elctro-footer-docker-container {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ffffff;   
+    z-index: 9;
+}
+.elctro-footer-docker-container ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.elctro-footer-docker-container ul li {
+    padding: 15px 0;
+    text-align: center;
+    flex: 1;
+}
+.elctro-footer-docker-container ul li a {
+    display: block;
+    color: #484b4ecf;
+    font-weight: 500;
+}
+.elctro-footer-docker-container ul li.current-menu-item a {
+    color: #04d2b9;
+}
+.elctro-footer-docker-container ul li a span {
+    display: block;
+}
+.main-category-container {
+    position: relative;
+}
+.main-category-container ul {
+    overflow: scroll;
+    padding-bottom: 100px;
+    list-style: none;
+    margin: 0;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-category-container ul li {
+    position: relative;
+    margin: 5px;
+    width: calc(100% * (1/4) - 10px - 1px);
+}
+.main-category-container ul li a {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #2d2d2d;
+    border: 1px solid #efefef;
+    transition: all 0.2s linear 0s;
+}
+.main-category-container ul li a:hover {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+.main-category-container ul li a img {
+   width: 100%;
+}
+.main-category-container ul li a span {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+}
+@media (max-width: 1200px) {
+    .product-category-page .site-header{
+        position: fixed;
+        width: 100%;
+        z-index: 3;
+    }
+    .main-category-container {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        overflow-y: auto;
+        overflow-x: hidden;
+        background: #f7f7f7;
+        z-index: 2;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .main-category-container ul {
+        padding-top: 60px;
+    }
+    .main-category-container ul li {
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+    .main-category-container ul li a {
+        flex-wrap: nowrap;
+        margin: 0;
+        border: none;
+        padding: 0;
+    }
+    .main-category-container ul li a span {
+        text-align: left;
+    }
+    .main-category-container ul li a img {
+        width: 50px;
+        padding-right: 10px;
+    }
+}
