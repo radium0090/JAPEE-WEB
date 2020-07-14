@@ -13,7 +13,14 @@ function get_top_selling_products( $params ) {
             'post_type'=>'product',
             'meta_key'=>'total_sales',
             'orderby'=>'meta_value_num',
-            'posts_per_page'=> $limit
+            'order' => 'DESC',
+            'posts_per_page'=> $limit,
+            'meta_query' => array(
+                array(
+                    'key' => '_stock_status',
+                    'value' => 'instock'
+                )
+            )
         ];
        
         $products = get_posts($args);
